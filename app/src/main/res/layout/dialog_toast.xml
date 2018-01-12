@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_container"
+    android:layout_width="235dp"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:minWidth="235dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:paddingTop="14dp"
+        android:text="提示"
+        android:textColor="@color/black_333333"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="14dp"
+        android:paddingLeft="28dp"
+        android:gravity="center"
+        android:paddingRight="28dp"
+        android:paddingTop="8dp"
+        android:textColor="@color/gray_666666"
+        android:textSize="13sp" />
+
+    <TextView style="@style/Divider1dp" />
+
+    <TextView
+        android:id="@+id/tv_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="9dp"
+        android:gravity="center"
+        android:text="我知道了"
+        android:textColor="@color/blue_007aff"
+        android:textSize="14sp" />
+</LinearLayout>
+

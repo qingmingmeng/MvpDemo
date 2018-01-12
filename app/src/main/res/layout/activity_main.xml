@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.administrator.mvpdemo.MainActivity">
+    tools:context="com.example.zj.mvpdemo.activity.MainActivity">
 
     <TextView
+        android:id="@+id/tv_city"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
